@@ -2,7 +2,8 @@ var textWrapper = document.querySelector('.title');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 var textWrapper2 = document.querySelector('.text');
 textWrapper2.innerHTML = textWrapper2.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 anime.timeline()
 .add({
     targets: '.title',
