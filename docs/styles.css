@@ -30,12 +30,12 @@ body{
 .underline{
   border-top: 1px solid rgb(224, 221, 221);
   width: 6.8rem;
-  margin-top: -30px;
+  margin-top: -25px;
   opacity: 0;
   border-color: purple;
 }
 a {
-  margin-top: 4rem;
+  margin-top: 2rem;
   color: inherit;
   text-decoration: none;
 }
@@ -69,6 +69,7 @@ a {
     font-size: 2rem
   }
   .underline {
-    width: 9rem
+    width: 9rem;
+    margin-top: -30px;
   }
 }
